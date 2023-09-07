@@ -1,7 +1,6 @@
 /* common shared styles */
 
 body{
-    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
@@ -25,9 +24,12 @@ padding: 15px 35px;
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -36,4 +38,8 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related style */
+.header{
+    background-color: #FFF8F3;
 }
