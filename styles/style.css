@@ -74,12 +74,30 @@ margin-top: 20px;
 margin-bottom: 25px;
 }
 /* main related styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* section about related styles */
 .about{
     padding: 130px;
     border-radius: 10px;
 background: #FFF8F3;
-margin: 100px 0;
+margin: 120px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+
+}
+.info-title{
+    text-align: center;
+    font-weight: 100;
+}
+.info-drisctription{
+    font-weight: 800;
 }
 .section-title{
     text-align: center;
@@ -89,4 +107,12 @@ margin: 100px 0;
     text-align: center;
     font-size: 18px;
     color: #757575;
+}
+#what-i-do{
+    padding: 30px 130px;
+}
+/* what i do section > skill container */
+.skill-container{
+    display: flex;
+    justify-content: space-around;
 }
