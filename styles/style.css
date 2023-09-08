@@ -186,6 +186,7 @@ footer{
     width: 50%;
 }
 .footer-title{
+    text-align: center;
 color: #181818;
 font-size: 35px;
 font-weight: 600;
