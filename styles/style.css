@@ -97,6 +97,7 @@ margin: 120px 0;
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    align-items: center;
 
 
 }
@@ -215,3 +216,48 @@ a{
 #btu{
     width: 40%;
 }
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    nav,
+    nav>ul,
+    .skill-container , 
+    .resume-container,footer , 
+    .about-info-container ,
+    .banner
+    {
+        flex-direction: column;
+    }
+    nav >ul{
+        gap: 10px;
+    }
+    .banner{
+        padding: 10px;
+        
+    }
+    #what-i-do{
+        padding: 20px;
+    }
+  
+    footer ,.about{
+        padding: 10px;
+        /* align-items: center; */
+    }
+    .footer-item{
+        width: 70%;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner>.profile-pic{
+        width: 100px;
+    }
+    .btn-primary{
+        margin: 10px;
+    }
+   
+
+
+};
